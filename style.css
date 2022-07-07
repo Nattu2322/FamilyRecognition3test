@@ -1,0 +1,12 @@
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:darkolivegreen;
+}
+body{
+    background-color: lightgreen;
+}
+#camera, #result{
+    border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+}
