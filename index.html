@@ -24,16 +24,23 @@
                 <hr>
             </b>
             <h2>Webcam VIEW</h2>
+            <span>
             <div id="camera"></div>
             <br>
             <br>
             <div id="result"></div>
+        </span>
             <br>
             <br>
             <button id="capture" class="btn btn-warning" onclick="takeSnapshot()">Capture Image</button>
             <br>
             <br>
             <button id="identify" class="btn btn-warning" onclick="check()">Identify Image</button>
+            <br>
+            <br>
+            <p style="font-size: 22px;">Object : <span id="result_of_objects"></span> </p>
+             <p style="font-size: 22px;">Accuracy : <span id="result_of_accuracy"></span> </p>
         </center>
+        <script src="main.js"></script>
     </body>
 </html>
